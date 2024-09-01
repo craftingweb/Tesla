@@ -15,6 +15,8 @@ body {
   font-size: 24px;
   color: white;
   background-color: #0b0b0b;
+  /* font-weight: 400;
+  line-height: 28px; */
 }
 
 .container {
@@ -29,7 +31,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 36px;
+  position: relative;
+  /* opacity: 0.6; */
 }
+
+/* .header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+} */
 
 .header-top {
   display: flex;
@@ -41,6 +54,8 @@ body {
   width: 60px;
   border: 1px solid white;
   padding: 12px 12px;
+  background: #ffffff15;
+  cursor: pointer;
 }
 
 .menu span {
@@ -72,4 +87,10 @@ span + span {
   font-size: 24px;
   display: inline-block;
   margin-top: 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #770302;
 }
