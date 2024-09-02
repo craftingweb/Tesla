@@ -96,8 +96,19 @@ span + span {
 }
 
 .slider__img {
-  background-image: url("/images/header-bg.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.slider-1 {
+  background-image: url("/images/header-bg.jpg");
+}
+
+.slider-2 {
+  background-image: url("/images/slick-2.jpg");
+}
+
+.slider-3 {
+  background-image: url("/images/slick-3.jpg");
 }
