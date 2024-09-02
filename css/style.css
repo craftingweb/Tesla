@@ -26,13 +26,14 @@ body {
 }
 
 .header {
-  /* background-image: url("/images/header-bg.jpg"); */
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+  z-index: 5;
+  position: absolute;
+  background: hsla(0, 0%, 0%, 0.188);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding-top: 36px;
-  position: relative;
-  /* opacity: 0.6; */
 }
 
 /* .header::after {
@@ -111,4 +112,13 @@ span + span {
 
 .slider-3 {
   background-image: url("/images/slick-3.jpg");
+}
+
+.slick-dots button {
+  font-size: 0;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  display: inline;
 }
