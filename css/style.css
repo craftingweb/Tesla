@@ -36,15 +36,6 @@ body {
   padding-top: 36px;
 }
 
-/* .header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-} */
-
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -119,6 +110,62 @@ span + span {
   border-radius: 50%;
   height: 15px;
   width: 15px;
-  background-color: white;
-  display: inline;
+  background-color: #0b0b0b;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+  background-color: #fff;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots {
+  max-width: 1200px;
+  margin: -55px auto 0;
+  z-index: 7;
+  position: relative;
+}
+
+.stats {
+  margin: 105px 0 100px;
+}
+
+.stats__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats__item {
+  text-align: center;
+}
+
+.stats__item-num {
+  font-size: 96px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.stats__item-num span {
+  font-size: 24px;
+}
+
+.stats__item-desc {
+  color: #770302;
+}
+
+.stats__item-num--speed {
+  position: relative;
+}
+.stats__item-num--speed::after {
+  content: "+";
+  position: absolute;
+  font-size: 24px;
+  margin-left: -43px;
 }
