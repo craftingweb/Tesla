@@ -183,7 +183,8 @@ li {
   justify-content: space-between;
 }
 
-.speed__title {
+.speed__title,
+.advantages__title {
   font-size: 36px;
   color: #770302;
   margin-bottom: 100px;
@@ -191,4 +192,33 @@ li {
 
 .speed__text {
   max-width: 300px;
+}
+
+.advantages__text {
+  margin: 100px 0 40px 58px;
+}
+
+.advantages__list li {
+  display: block;
+  line-height: 1.1;
+}
+
+.advantages__inner {
+  display: flex;
+}
+
+.advantages__title {
+  text-align: right;
+}
+
+.advantages__content {
+  width: 100%;
+}
+
+.advantages__inner img {
+  height: 400px;
+}
+
+.inside {
+  margin-bottom: 100px;
 }
