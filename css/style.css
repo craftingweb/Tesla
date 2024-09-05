@@ -241,3 +241,14 @@ li {
   margin-left: 100px;
   line-height: 1.2;
 }
+
+.footer {
+  background-color: #770302;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer-btn {
+  margin: 83px 0;
+  background-color: #ffffff20;
+}
