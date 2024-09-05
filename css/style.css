@@ -222,3 +222,22 @@ li {
 .inside {
   margin-bottom: 100px;
 }
+
+.design {
+  margin-bottom: 100px;
+}
+
+.design__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.design__number {
+  color: #770302;
+}
+
+.design__content {
+  max-width: 450px;
+  margin-left: 100px;
+  line-height: 1.2;
+}
