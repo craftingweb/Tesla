@@ -169,3 +169,26 @@ li {
   font-size: 24px;
   margin-left: -43px;
 }
+
+.video {
+  margin-bottom: 100px;
+}
+
+.speed {
+  margin-bottom: 100px;
+}
+
+.speed__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.speed__title {
+  font-size: 36px;
+  color: #770302;
+  margin-bottom: 100px;
+}
+
+.speed__text {
+  max-width: 300px;
+}
