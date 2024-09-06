@@ -94,6 +94,12 @@ span + span {
   left: 0;
   width: 100%;
   left: -100%;
+  transition: all 0.6s;
+  z-index: 10;
+}
+
+.menu.active {
+  left: 0;
 }
 
 .menu li {
@@ -159,6 +165,7 @@ span + span {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slider-1 {
