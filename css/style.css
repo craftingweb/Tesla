@@ -348,3 +348,28 @@ li {
   position: absolute;
   left: -10px;
 }
+
+@media (max-width: 800px) {
+  .speed__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .speed__title {
+    margin-bottom: 37px;
+  }
+  .speed__text {
+    margin-bottom: 20px;
+  }
+  .speed__inner img,
+  .advantages__inner img {
+    max-width: 100%;
+  }
+
+  .advantages__inner {
+    flex-wrap: wrap-reverse;
+  }
+
+  .advantages__text {
+    margin: 10px 0 34px 47px;
+  }
+}
