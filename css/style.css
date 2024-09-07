@@ -349,6 +349,10 @@ li {
   left: -10px;
 }
 
+.inside img {
+  max-width: 100%;
+}
+
 @media (max-width: 800px) {
   .speed__inner {
     flex-wrap: wrap;
@@ -371,5 +375,23 @@ li {
 
   .advantages__text {
     margin: 10px 0 34px 47px;
+  }
+  .inside img {
+    margin-top: 100px;
+  }
+  .design__items {
+    display: block;
+  }
+  .design__item {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .design__items {
+    text-align: center;
+  }
+  .design__content {
+    max-width: 100%;
+    margin-left: 0;
   }
 }
