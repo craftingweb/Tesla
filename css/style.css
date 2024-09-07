@@ -215,10 +215,12 @@ li {
 .stats__items {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .stats__item {
   text-align: center;
+  padding: 50px;
 }
 
 .stats__item-num {
